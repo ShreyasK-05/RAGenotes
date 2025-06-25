@@ -115,6 +115,35 @@ npm run dev
 
 ---
 
+##  API Endpoints
+
+###  Authentication (Node.js + MongoDB)
+- **POST /signup** – Register a new user
+- **POST /login** – Login with email & password
+
+---
+
+###  PDF Management (Node.js + MongoDB)
+- **GET /my-pdfs** – Get all PDFs uploaded/shared with the user
+- **GET /pdf/:id** – Fetch a single PDF by ID (if user is authorized)
+- **POST /share-file** – Share a PDF from teacher to student
+- **POST /upload-doc** – Upload a new document for transcription or sharing
+
+---
+
+###  Voice Transcription (Whisper AI Integration)
+- **POST /start-recording** – Start live audio transcription
+- **POST /stop-recording** – Stop transcription process
+- **GET /transcript-stream** – Stream real-time transcription via SSE (Server-Sent Events)
+
+---
+
+###  RAG Chatbot (FastAPI + LangChain)
+- **POST /upload-doc** – Upload and store a document (PDF or TXT) to build vector DB
+- **POST /ask** – Ask a question to the RAG chatbot and get an AI-generated answer
+
+---
+
 ##  RAG Chatbot Usage
 
 ### Upload File:
