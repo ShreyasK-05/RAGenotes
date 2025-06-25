@@ -167,16 +167,6 @@ RAGenotes/
 
 ---
 
-## Credits
-
-* Whisper AI – OpenAI
-* LangChain – Retrieval and Embedding
-* ChromaDB – Vector Store
-* MERN Stack
-* OpenRouteService (future integration for location-aware routing)
-
----
-
 ##  Contact
 
 For collaboration or questions, reach out to:
